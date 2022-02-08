@@ -41,13 +41,13 @@ ReactDOM.render(
     <Routes>
       <Route path='/login' element={<Login />} />
 
-      <Route exact path='/' element={<PrivateRoute />}>
+      {/* <Route exact path='/' element={<PrivateRoute />}> */}
       <Route exact path='/' element={<Home />}/>
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team' element={<PrivateRoute />}>
+      {/* <Route exact path='/team' element={<PrivateRoute />}> */}
       <Route exact path='/team' element={<Team />} />
-      </Route>
+      {/* </Route> */}
 
       <Route exact path='/team/prepaotf1' element={<PrivateRoute />}>
       <Route exact path='/team/prepaotf1' element={<Scrim />} />
