@@ -81,29 +81,29 @@ ReactDOM.render(
       <Route exact path='/team/prepaotf1/support' element = {<StatsSupport/>} />
       </Route>
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1' element = {<Otf1/>} />
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1/top' element = {<StatsOtf1Top/>} />
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1/jungle' element = {<StatsOtf1Jungle/>} />
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1/mid' element = {<StatsOtf1Mid/>} />
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1/adc' element = {<StatsOtf1Adc/>} />
-      </Route>
+      {/* </Route> */}
 
-      <Route exact path='/team/otf1' element={<PrivateRoute />}>
+      {/* <Route exact path='/team/otf1' element={<PrivateRoute />}> */}
       <Route exact path='/team/otf1/support' element = {<StatsOtf1Support/>} />
-      </Route>
+      {/* </Route> */}
 
       <Route exact path='/team/prepaotf2/top' element={<PrivateRoute />}>
       <Route exact path='/team/prepaotf2/top' element = {<StatsPrepaotf2Top/>} />
