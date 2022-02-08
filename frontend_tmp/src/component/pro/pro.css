@@ -1,0 +1,15 @@
+.coreLFL {
+  background-color: #292929;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.coreLFL div {
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-weight: 700;
+  color: orange;
+}

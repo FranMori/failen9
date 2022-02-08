@@ -1,0 +1,147 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #292929;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.addScrim {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #292929;
+  flex-wrap: wrap;
+}
+
+.scrimStats {
+  background-color: #292929;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 80%;
+}
+
+.addScrim input {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 5px;
+}
+
+.addScrim button {
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: black;
+}
+
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: orange;
+}
+
+.coreScrim {
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  flex-direction: column;
+}
+
+.tableScrim {
+  padding: 50px 15px;
+}
+
+.scrimStats {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.winrate {
+  display: flex;
+  flex-direction: column;
+}
+
+.drake {
+  display: flex;
+  flex-direction: column;
+}
+
+.herald {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: orange;
+}
+
+.navOTF {
+  display: flex;
+  flex-direction: column;
+  height: 32rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #292929;
+}
+
+.navOTF button {
+  width: 40%;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.navOTF a {
+  color: black;
+}
+
+.statsIndiv {
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 32rem;
+}
+
+.statsIndiv table {
+  margin: 30px 30px;
+}
+.statsIndiv h1 {
+  margin-top: 40px;
+}
+
+.titrePeriode {
+  background-color: #292929;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px 0px;
+}

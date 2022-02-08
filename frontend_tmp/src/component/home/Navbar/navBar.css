@@ -1,0 +1,17 @@
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
