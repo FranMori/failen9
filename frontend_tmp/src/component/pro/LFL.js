@@ -18,7 +18,7 @@ function LFL() {
     <div>
       <Header />
         <div className="coreLFL">
-          <h1>Stats LFL</h1>
+          <h1>Stats LFL spring 2022</h1>
           <TopLFL />
           <JglLFL />  
           <MidLFL />
