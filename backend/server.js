@@ -37,8 +37,8 @@ app.use ('/api', require('./routes/otf1'))
 
 
 
-const PORT = process.env.PORT
-if (PORT = null || PORT =="") {
+let PORT = process.env.PORT
+if (PORT == null || PORT =="") {
   PORT = 5000
 }
 app.listen(PORT)
