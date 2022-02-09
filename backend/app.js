@@ -23,6 +23,10 @@ app.use((req, res, next) => {
 // 
 
 app.use(express.json())
+app.use(express.static(path.resolve(_dirname, '../frontend_tmp/build')))
+app.get('*',(req,res) => {
+  res.sendFile(path.resolve(__dirname, '../frontend_tmp/build', 'index.html'))
+})
 
 // Routes
 
@@ -34,6 +38,7 @@ app.use ('/api', require('./routes/otf1'))
 
 
 const PORT = process.env.PORT || 5000
+
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`))
 
