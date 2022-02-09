@@ -37,10 +37,12 @@ app.use ('/api', require('./routes/otf1'))
 
 
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT
+if (PORT = null || PORT =="") {
+  PORT = 5000
+}
+app.listen(PORT)
 
-
-app.listen(PORT, console.log(`Server started on port ${PORT}`))
 
 // Test DB
 
