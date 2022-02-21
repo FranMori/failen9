@@ -23,10 +23,10 @@ app.use((req, res, next) => {
 // 
 
 app.use(express.json())
-app.use(express.static(path.resolve(_dirname, '../frontend_tmp/build')))
-app.get('*',(req,res) => {
-  res.sendFile(path.resolve(__dirname, '../frontend_tmp/build', 'index.html'))
-})
+// app.use(express.static(path.resolve(frontend_tmp, '../frontend_tmp/build')))
+// app.get('*',(req,res) => {
+//   res.sendFile(path.resolve(frontend_tmp, '../frontend_tmp/build', 'index.html'))
+// })
 
 // Routes
 
@@ -34,6 +34,7 @@ app.use('/api', require('./routes/scrim'))
 app.use ('/api', require('./routes/user'))
 app.use ('/api', require('./routes/prepaotf2'))
 app.use ('/api', require('./routes/otf1'))
+app.use ('/api', require ('./routes/matchups/top'))
 
 
 
