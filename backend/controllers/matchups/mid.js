@@ -7,25 +7,25 @@ const prepaOtf2 = require ('../../models/prepaotf2')
 
 const getAllScrim = async (req, res) => {
  Scrim.findAll({
-    attributes: ['EPick1', 'Pick1']
+    attributes: ['EPick3', 'Pick3']
   })
-  .then(topScrim => res.status(200).json(topScrim))
+  .then(midScrim => res.status(200).json(midScrim))
   .catch(error => res.status(400).json({error}))
 
 }
 const getAllOtf1 = async (req, res) => {
   Otf1.findAll({
-    attributes: ['EPick1', 'Pick1']
+    attributes: ['EPick3', 'Pick3']
   })
-  .then(topOtf1 => res.status(200).json(topOtf1))
+  .then(midOtf1 => res.status(200).json(midOtf1))
   .catch(error => res.status(400).json({error}))
 }
 
 const getAllPrepaOtf2 = async (req, res) => {
   prepaOtf2.findAll({
-    attributes: ['EPick1', 'Pick1']
+    attributes: ['EPick3', 'Pick3']
   })
-  .then(topPrepaOtf2 => res.status(200).json(topPrepaOtf2))
+  .then(midPrepaOtf2 => res.status(200).json(midPrepaOtf2))
   .catch(error => res.status(400).json({error}))
 
 }
@@ -35,27 +35,27 @@ const getAllPrepaOtf2 = async (req, res) => {
 const getWinScrim = async (req, res) => {
   Scrim.findAll({
     where : {Result : 'Victoire'},
-    attributes : ['EPick1', 'Pick1']
+    attributes : ['EPick3', 'Pick3']
   })
-  .then(topWinScrim => res.status(200).json(topWinScrim))
+  .then(midWinScrim => res.status(200).json(midWinScrim))
   .catch(error => res.status(400).json({error}))
 }
 
 const getWinOtf1 = async (req, res) => {
   Otf1.findAll({
     where : {Result : 'Victoire'},
-    attributes : ['EPick1', 'Pick1']
+    attributes : ['EPick3', 'Pick3']
   })
-  .then(topWinOtf1 => res.status(200).json(topWinOtf1))
+  .then(midWinOtf1 => res.status(200).json(midWinOtf1))
   .catch(error => res.status(400).json({error}))
 }
 
 const getWinPrepaOtf2 = async (req, res) => {
   prepaOtf2.findAll({
     where : {Result : 'Victoire'},
-    attributes : ['EPick1', 'Pick1']
+    attributes : ['EPick3', 'Pick3']
   })
-  .then(topWinPrepaOtf2 => res.status(200).json(topWinPrepaOtf2))
+  .then(midWinPrepaOtf2 => res.status(200).json(midWinPrepaOtf2))
   .catch(error => res.status(400).json({error}))
 }
 

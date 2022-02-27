@@ -35,6 +35,11 @@ app.use ('/api', require('./routes/user'))
 app.use ('/api', require('./routes/prepaotf2'))
 app.use ('/api', require('./routes/otf1'))
 app.use ('/api', require ('./routes/matchups/top'))
+app.use ('/api', require ('./routes/matchups/jgl'))
+app.use ('/api', require ('./routes/matchups/mid'))
+app.use ('/api', require ('./routes/matchups/adc'))
+app.use ('/api', require ('./routes/matchups/sup'))
+
 
 
 
